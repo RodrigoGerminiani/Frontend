@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Seletores</title>
+    <style>
+    div{
+        border: 1PX solid black;
+        width: 20%;
+        height: 200PX;
+        display: inline-block;
+        margin: 2%;
+    }
+    #fundo1{
+        background-color: green;
+    }
+    .fundo2{
+        background-color: red;
+    }
+    .sombra{
+        box-shadow: 5px 5px 3px black;
+    }
+    div:nth-child(4),
+    div:nth-child(6)
+    {
+        background-color: blueviolet;
+    }
+    div:first-child{
+        background-color:aqua !important ;
+    }
+    div:last-child{
+        background-color: brown;
+    }
+    body{
+        background-color: chartreuse;
+    }
+    </style>
+
+</head>
+<body>
+
+<div id="fundo1"></div>
+<div class="fundo2 sombra"></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+
+</body>
+</html>
